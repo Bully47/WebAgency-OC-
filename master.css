@@ -107,3 +107,86 @@ nav ul .menu li a:hover {
     font-size: 17px;
     font-family: 'Roboto Bold', sans-serif;
 }
+
+/* Nos Services */
+#Services {
+    margin-top: 15%;
+}
+
+.nosServices {
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosServices h1 {
+    font-size: 35px;
+    font-family: 'Roboto Bold', sans-serif;
+}
+
+.nosServices p {
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #75797D;
+}
+
+.nosServicesContainer {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nosServicesContainer .box {
+    width: 50%;
+    display: flex;
+}
+
+.nosServicesContainer .box .icones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nosServicesContainer .box .textBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nosServicesContainer .box .icones span {
+    padding: 15px;
+    border: 1px solid #DDDDDD;
+    border-radius: 50%;
+}
+
+.nosServicesContainer .box .icones span::after {
+    content: '';
+    width: 0;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 10px;
+    border: 5px solid #5EABD3;
+    border-radius: 50%;
+}
+
+.nosServicesContainer .box .icones span i {
+    color: #5DACD3;
+    font-size: 30px;
+}
+
+.nosServicesContainer .box .textBox .text {
+    margin-left: 5%;
+}
+
+.nosServicesContainer .box .textBox .text h2 {
+    font-family: 'Roboto Bold', sans-serif;
+    margin-bottom: 5px;
+}
+
+.nosServicesContainer .box .textBox .text p {
+    color: #75797D;
+    font-family: 'Roboto', sans-serif;
+}

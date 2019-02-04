@@ -1,41 +1,76 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="utf-8">
-  <!-- CSS, Polices et Icones -->
-  <link rel="stylesheet" href="master.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <title>WebAgency</title>
-  <!-- Navbar -->
-  <nav>
-    <ul>
-      <div class="logo">
-        <li><img src="src/images/logo.png" alt="Logo"></li>
-      </div>
-      <div class="menu">
-        <li><a href="#">Accueil</a></li>
-        <li><a href="index.html#Services">Services</a></li>
-        <li><a href="index.html#Projets">Portfolio</a></li>
-        <li><a href="index.html#Contact">Contact</a></li>
-      </div>
-    </ul>
-  </nav>
+    <meta charset="utf-8">
+    <!-- CSS, Polices et Icones -->
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>WebAgency</title>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <div class="logo">
+                <li><img src="src/images/logo.png" alt="Logo"></li>
+            </div>
+            <div class="menu">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="index.html#Services">Services</a></li>
+                <li><a href="index.html#Projets">Portfolio</a></li>
+                <li><a href="index.html#Contact">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
 </head>
 <body>
 
-  <!-- Index -->
-  <div class="indexContainer">
-    <img src="src/images/slider/bg1.jpg" alt="slider_image_1">
-    <div class="imageText">
-      <h1><span id="blue">WEBAGENCY</span> : L'AGENCE DE TOUS<br>VOS PROJETS !</h1>
-      <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
-      <div class="buttonContainer">
-        <button type="button" name="button"><a href="index.html#Services">Plus d'infos</a></button>
-      </div>
+    <!-- Index -->
+    <div class="indexContainer">
+        <img src="src/images/slider/bg1.jpg" alt="slider_image_1">
+        <div class="imageText">
+            <h1><span id="blue">WEBAGENCY</span> : L'AGENCE DE TOUS<br>VOS PROJETS !</h1>
+            <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+            <div class="buttonContainer">
+                <button type="button" name="button"><a href="index.html#Services">Plus d'infos</a></button>
+            </div>
+        </div>
     </div>
-  </div>
-  
+
+    <!-- Nos Services -->
+    <div id="Services"></div>
+    <div class="nosServices">
+        <h1>NOS SERVICES</h1>
+        <div class="diviseur">
+            <span class="ligne"></span>
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <span class="ligne"></span>
+        </div>
+        <p>Parce que les méthodes de prospection et de ventes traditionnelles sont devenues obsolètes, et souvent trop onéreuses, le web offre un formidable potentiel de croissance pour les entreprises. Notre agence de création et refonte de site place vos clients au coeur de votre stratégie pour obtenir un sites web qui booste votre trafic, génère des leads et augmente vos ventes.</p>
+    </div>
+    <div class="nosServicesContainer">
+        <img src="src/images/main-feature.png" alt="mockup">
+        <div class="box">
+            <div class="icones">
+                <span><i class="fas fa-chart-line blue"></i></span>
+                <span><i class="fas fa-cubes"></i></span>
+                <span><i class="fas fa-chart-pie"></i></span>
+            </div>
+            <div class="textBox">
+                <div class="text">
+                    <h2>UX Design</h2>
+                    <p>Notre accompagnement UX se construit autour de la rencontre de vos utilisateurs afin d’analyser leur usage du site et de comprendre leurs besoins.</p>
+                </div>
+                <div class="text">
+                    <h2>UI Design</h2>
+                    <p>L'interface utilisateur est le lien entre l'humain et la machine. C'est le produit fini présenté à l'internaute qui va lui permettre de surfer agréablement sur un site.</p>
+                </div>
+                <div class="text">
+                    <h2>SEO</h2>
+                    <p>Clé de la réussite de votre projet web, le référencement sert à optimiser votre site afin de mieux le positionner.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
