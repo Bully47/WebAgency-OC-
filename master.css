@@ -190,3 +190,145 @@ nav ul .menu li a:hover {
     color: #75797D;
     font-family: 'Roboto', sans-serif;
 }
+
+/* Nos Projets */
+#Projets {
+    margin-top: 10%;
+}
+
+.nosProjets {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+}
+
+.nosProjets .text,
+.nosProjets .menu,
+.nosProjets .pictures {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nosProjets .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nosProjets .text h1 {
+    font-size: 35px;
+    font-family: 'Roboto Bold', sans-serif;
+}
+.nosProjets .text p {
+    color: #75797D;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nosProjets .menu {
+    display: flex;
+}
+
+.nosProjets .menu li {
+    width: 125px;
+    height: 50px;
+    border-bottom: 5px solid transparent;
+    border-radius: 5%;
+    background-color: #E5E5E5;
+}
+
+.nosProjets .menu li:hover {
+    border-bottom: 5px solid #468CAC;
+    background-color: #5CADD3;
+}
+
+.nosProjets .menu li:hover::after {
+    content: '';
+    position: absolute;
+    margin-left: 3.5%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 0 15px;
+    border-color: #468CAC transparent transparent transparent;
+}
+
+.nosProjets .menu li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Roboto Bold', sans-serif;
+    color: grey;
+}
+
+.nosProjets .menu li a:hover {
+    color: white;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.portfolio figure {
+    margin-top: 1%;
+    position: relative;
+    width: 22.5%;
+}
+
+.portfolio img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.portfolio h2 {
+    font-family: 'Roboto Bold', sans-serif;
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+.portfolio p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+.portfolio i {
+    position: absolute;
+    top: -20%;
+    left: 85%;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    background-color: #51A0B0;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.portfolio figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.4);
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.5s;
+}
+
+.portfolio figure:hover figcaption {
+    overflow: visible;
+    max-height: 10em;
+    transition: 0.5s;
+}
