@@ -332,3 +332,86 @@ nav ul .menu li a:hover {
     max-height: 10em;
     transition: 0.5s;
 }
+
+/* Contact */
+.contact .mapBox {
+    width: 100%;
+    height: 720px;
+    position: absolute;
+    background-color: rgba(92, 173, 211, 0.3);
+}
+
+.contact .mapBox #map {
+    position: absolute;
+    z-index: -42;
+}
+
+.contact .contactForm {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.contact .contactForm ul {
+    margin-top: 45px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 42;
+}
+
+.contact .contactForm ul .text {
+    padding-bottom: 20px;
+}
+
+.contact .contactForm ul .text h1 {
+    font-family: 'Roboto Bold', sans-serif;
+}
+
+.contact .contactForm ul .text h6 {
+    font-size: 14px;
+    font-family: 'Roboto Bold', sans-serif;
+    padding-bottom: 5px;
+}
+
+.contact .contactForm ul .text p {
+    font-family: 'Roboto Light', sans-serif;
+    padding-bottom: 3px;
+}
+
+.contact .contactForm ul li input {
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: 'Roboto Light', sans-serif;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.contact .contactForm ul li textarea {
+    width: 300px;
+    height: 185px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: 'Roboto Light', sans-serif;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.contact .contactForm ul #button input {
+    padding: 10px;
+    background-color: #5CADD3;
+    border-color: #5CADD3;
+    border-radius: 3px;
+    box-shadow: -1px 3px 1px #4494BB;
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto Bold', sans-serif;
+}
