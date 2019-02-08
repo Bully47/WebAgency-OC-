@@ -2,27 +2,33 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="website of the WebAgency, discover our UI, UX and SEO solutions"/>
+    <!-- Open Graph -->
+    <meta property="og:url" content="https://webagencyoc.herokuapp.com"/>
+    <meta property="og:title" content="WebAgency, L'agence de tous vos projets"/>
+    <meta property="og:description" content="Découvrez nos solutions UI, UX et SEO" />
+    <meta property="og:image" content="http://webagencyoc.herokuapp.com/src/images/slider/bg1.jpg"/>
+    <!-- Twitter -->
     <!-- CSS, Polices et Icones -->
-    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" media="screen" href="masterDesktop.css">
+    <!-- <link rel="stylesheet" media="screen" href="masterLaptop.css"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>WebAgency</title>
-    <!-- Navbar -->
-    <nav>
-        <ul>
-            <div class="logo">
-                <li><img src="src/images/logo.png" alt="Logo"></li>
-            </div>
-            <div class="menu">
-                <li><a href="#">Accueil</a></li>
-                <li><a href="index.html#Services">Services</a></li>
-                <li><a href="index.html#Projets">Portfolio</a></li>
-                <li><a href="index.html#Contact">Contact</a></li>
-            </div>
-        </ul>
-    </nav>
 </head>
 <body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="src/images/logo.png" alt="Logo">
+        </div>
+        <ul class="menu">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="index.html#Services">Services</a></li>
+            <li><a href="index.html#Projets">Portfolio</a></li>
+            <li><a href="index.html#Contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <!-- Index -->
     <div class="indexContainer">
@@ -31,7 +37,7 @@
             <h1><span id="blue">WEBAGENCY</span> : L'AGENCE DE TOUS<br>VOS PROJETS !</h1>
             <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
             <div class="buttonContainer">
-                <button type="button" name="button"><a href="index.html#Services">Plus d'infos</a></button>
+                <input type="button" value="Plus d'infos" onclick="location.href='index.html#Services';" />
             </div>
         </div>
     </div>
@@ -162,24 +168,24 @@
     <div id="Contact"></div>
     <div class="contact">
         <div class="mapBox">
-            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221609680721!2d2.3476369157928567!3d48.87305177928889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1548774358861" width="100%" height="720" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221609680721!2d2.3476369157928567!3d48.87305177928889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1548774358861" allowfullscreen></iframe>
         </div>
-        <form class="contactForm" action="" method="post">
-            <ul>
+        <form class="contactForm" method="post">
+            <div class="container">
                 <div class="text">
-                    <h1>Nous Contacter</h1><br>
+                    <h1>Nous Contacter</h1>
                     <h6>WebAgency SAS</h6>
                     <p>25 Rue D'Hauteville 75010 Paris</p>
                     <p><u style="text-decoration-style: dotted">Tel :</u> 01 02 03 04 05</p>
                 </div>
-                <li><input type="text" name="name" placeholder="Name" value=""></li><br>
-                <li><input type="email" name="email" placeholder="Email" value=""></li><br>
-                <li><input type="text" name="subject" placeholder="Subject" value=""></li><br>
-                <li><textarea name="message" placeholder="Message"></textarea></li><br>
+                <input type="text" name="name" placeholder="Name" value="">
+                <input type="email" name="email" placeholder="Email" value="">
+                <input type="text" name="subject" placeholder="Subject" value="">
+                <textarea name="message" placeholder="Message"></textarea>
                 <div id="button">
-                    <input type="submit" name="submit" value="Envoyer"><br>
+                    <input type="submit" name="submit" value="Envoyer">
                 </div>
-            </ul>
+            </div>
         </form>
     </div>
 </body>
