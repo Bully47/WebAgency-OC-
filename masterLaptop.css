@@ -79,10 +79,27 @@
     margin-top: 7.5%;
   }
 
+  .indexContainer #chevronLeft {
+    padding-left: 5px;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    margin-top: 15%;
+  }
+
   .indexContainer img {
     width: 100%;
     position: absolute;
     z-index: -42;
+  }
+
+  .indexContainer #chevronRight {
+    padding-right: 5px;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    margin-top: 15%;
+    right: 0;
   }
 
   .indexContainer .imageText {
