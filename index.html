@@ -16,7 +16,6 @@
   <meta name="twitter:image" content="http://webagencyoc.herokuapp.com/src/images/slider/bg1.jpg">
   <!-- CSS, Polices et Icones -->
   <link rel="stylesheet" media="screen" href="masterDesktop.css">
-  <link rel="stylesheet" media="screen" href="masterLaptop.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <title>WebAgency</title>
@@ -36,79 +35,82 @@
   </nav>
 
   <!-- Index -->
-  <div class="indexContainer">
-    <i id="chevronLeft" class="fas fa-chevron-left"></i>
+  <section class="indexContainer">
+    <div id="demiCercleLeft">
+      <i id="chevronLeft" class="fas fa-chevron-left"></i>
+    </div>
     <img src="src/images/slider/bg1.jpg" alt="slider_image_1">
-    <i id="chevronRight" class="fas fa-chevron-right"></i>
+    <div id="demiCercleRight">
+      <i id="chevronRight" class="fas fa-chevron-right"></i>
+    </div>
     <div class="imageText">
-      <h1><span id="blue">WEBAGENCY</span> : L'AGENCE DE TOUS<br>VOS PROJETS !</h1>
-      <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+      <h1><strong><span id="blue">WEBAGENCY</span> : L'AGENCE DE TOUS<br>VOS PROJETS !</strong></h1>
+      <p><strong>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</strong></p>
       <div class="buttonContainer">
         <input type="button" value="Plus d'infos" onclick="location.href='index.html#Services';" />
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Nos Services -->
   <div id="Services"></div>
-  <div class="nosServices">
-    <h1>NOS SERVICES</h1>
+  <section class="nosServices">
+    <h2>NOS SERVICES</h2>
     <div class="diviseur">
       <span class="ligne"></span>
       <i class="fa fa-circle" aria-hidden="true"></i>
       <span class="ligne"></span>
     </div>
-    <p>Parce que les méthodes de prospection et de ventes traditionnelles sont devenues obsolètes, et souvent trop onéreuses, le web offre un formidable potentiel de croissance pour les entreprises. Notre agence de création et refonte de site place vos clients au coeur de votre stratégie pour obtenir un sites web qui booste votre trafic, génère des leads et augmente vos ventes.</p>
-  </div>
-  <div class="nosServicesContainer">
+    <p><strong>Parce que les méthodes de prospection et de ventes traditionnelles sont devenues obsolètes, et souvent trop onéreuses, le web offre un formidable potentiel de croissance pour les entreprises. Notre agence de création et refonte de site place vos clients au coeur de votre stratégie pour obtenir un sites web qui booste votre trafic, génère des leads et augmente vos ventes.</strong></p>
+  </section>
+  <section class="nosServicesContainer">
     <img src="src/images/main-feature.png" alt="mockup">
-    <div class="box">
+    <article class="box">
       <div class="icones">
         <span><i class="fas fa-chart-line blue"></i></span>
         <span><i class="fas fa-cubes"></i></span>
         <span><i class="fas fa-chart-pie"></i></span>
       </div>
-      <div class="textBox">
+      <article class="textBox">
         <div class="text">
-          <h2>UX Design</h2>
+          <h3>UX Design</h3>
           <p>Notre accompagnement UX se construit autour de la rencontre de vos utilisateurs afin d’analyser leur usage du site et de comprendre leurs besoins.</p>
         </div>
         <div class="text">
-          <h2>UI Design</h2>
+          <h3>UI Design</h3>
           <p>L'interface utilisateur est le lien entre l'humain et la machine. C'est le produit fini présenté à l'internaute qui va lui permettre de surfer agréablement sur un site.</p>
         </div>
         <div class="text">
-          <h2>SEO</h2>
+          <h3>SEO</h3>
           <p>Clé de la réussite de votre projet web, le référencement sert à optimiser votre site afin de mieux le positionner.</p>
         </div>
-      </div>
-    </div>
-  </div>
+      </article>
+    </article>
+  </section>
 
   <!-- Nos Projets -->
   <div id="Projets"></div>
-  <div class="nosProjets">
-    <div class="text">
-      <h1>NOS PROJETS</h1>
+  <section class="nosProjets">
+    <article class="text">
+      <h2>NOS PROJETS</h2>
       <div class="diviseur">
         <span class="ligne"></span>
         <i class="fa fa-circle" aria-hidden="true"></i>
         <span class="ligne"></span>
       </div>
       <p>Nous avons accompagné 40 000 TPE dans la création de sites internet : paysagistes, esthéticiennes, charpentiers...</p>
-    </div>
-    <ul class="menu">
-      <!-- pas d'arrondi -->
+    </article>
+    <ul>
       <li><a href="index.html#Projets">All Works</a></li>
       <li><a href="index.html#Projets">Shops</a></li>
       <li><a href="index.html#Projets">Applications</a></li>
       <li><a href="index.html#Projets">Portfolios</a></li>
     </ul>
-    <div class="portfolio">
+    <article class="portfolio">
       <figure>
         <img src="src/images/portfolio/01.jpg" alt="01">
         <figcaption>
-          <h2>Monsieur Patate</h2>
+          <h3>Monsieur Patate</h3>
           <p>Shop en ligne spécialisé dans les produits de la marque</p>
           <i class="fa fa-eye" aria-hidden="true"></i>
         </figcaption>
@@ -116,7 +118,7 @@
       <figure>
         <img src="src/images/portfolio/02.jpg" alt="02">
         <figcaption>
-          <h2>Paqûes Numérique</h2>
+          <h3>Paqûes Numérique</h3>
           <p>Une chasse au trésor géante via l'application dédiée</p>
           <i class="fa fa-eye" aria-hidden="true"></i>
         </figcaption>
@@ -124,7 +126,7 @@
       <figure>
         <img src="src/images/portfolio/03.jpg" alt="03">
         <figcaption>
-          <h2>Pompadour 2.0</h2>
+          <h3>Pompadour 2.0</h3>
           <p>Le ChatBot intelligent de Madame de Pompadour</p>
           <i class="fa fa-eye" aria-hidden="true"></i>
         </figcaption>
@@ -132,7 +134,7 @@
       <figure>
         <img src="src/images/portfolio/04.jpg" alt="04">
         <figcaption>
-          <h2>Schools Solutions</h2>
+          <h3>Schools Solutions</h3>
           <p>Une nouvelle suite bureautique en ligne destinée aux étudiants</p>
           <i class="fa fa-eye" aria-hidden="true"></i>
         </figcaption>
@@ -140,7 +142,7 @@
       <figure>
         <img src="src/images/portfolio/05.jpg" alt="05">
         <figcaption>
-          <h2>DropShipping Express</h2>
+          <h3>DropShipping Express</h3>
           <p>une solution DropShipping rapide et sûre</p>
           <i class="fa fa-eye" aria-hidden="true"></i>
         </figcaption>
@@ -148,7 +150,7 @@
       <figure>
         <img src="src/images/portfolio/06.jpg" alt="06">
         <figcaption>
-          <h2>The Museum</h2>
+          <h3>The Museum</h3>
           <p>Le plus grand musée en ligne du monde</p>
           <i class="fa fa-eye" aria-hidden="true"></i>
         </figcaption>
@@ -156,7 +158,7 @@
       <figure>
         <img src="src/images/portfolio/07.jpg" alt="07">
         <figcaption>
-          <h2>Pencil Plus</h2>
+          <h3>Pencil Plus</h3>
           <p>La meilleure app de retouche d'images en ligne</p>
           <i class="fa fa-eye" aria-hidden="true"></i>
         </figcaption>
@@ -164,27 +166,27 @@
       <figure>
         <img src="src/images/portfolio/08.jpg" alt="08">
         <figcaption>
-          <h2>Best Material</h2>
+          <h3>Best Material</h3>
           <p>Shop en ligne de tablettes graphiques, ordinateurs, accessoires ...</p>
           <i class="fa fa-eye" aria-hidden="true"></i>
         </figcaption>
       </figure>
-    </div>
-  </div>
+    </article>
+  </section>
 
   <!-- Contact -->
   <div id="Contact"></div>
-  <div class="contact">
-    <div class="mapBox">
+  <section class="contact">
+    <article class="mapBox">
       <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221609680721!2d2.3476369157928567!3d48.87305177928889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1548774358861" allowfullscreen></iframe>
-    </div>
+    </article>
     <form class="contactForm" method="post">
       <div class="container">
         <div class="text">
-          <h1>Nous Contacter</h1>
+          <h2>Nous Contacter</h2>
           <h6>WebAgency SAS</h6>
           <p>25 Rue D'Hauteville 75010 Paris</p>
-          <p><u style="text-decoration-style: dotted">Tel :</u> 01 02 03 04 05</p>
+          <p><u id="num">Tel :</u> 01 02 03 04 05</p>
         </div>
         <input type="text" name="name" placeholder="Name" value="">
         <input type="email" name="email" placeholder="Email" value="">
@@ -195,7 +197,7 @@
         </div>
       </div>
     </form>
-  </div>
+  </section>
 </body>
 
 </html>
