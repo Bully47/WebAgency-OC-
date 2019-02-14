@@ -1,4 +1,4 @@
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1000px) {
   /* Global */
   body {
     padding: 0;
@@ -75,7 +75,7 @@
 
   /* Index */
   .indexContainer {
-    margin-top: 7.5%;
+    margin-top: 5%;
   }
 
   .indexContainer #demiCercleLeft {
@@ -303,7 +303,7 @@
   .nosProjets ul li:hover::after {
     content: '';
     position: absolute;
-    margin-left: 3.5%;
+    margin-left: 4.5%;
     width: 0;
     height: 0;
     border-style: solid;
@@ -413,7 +413,7 @@
 
   .contact .contactForm .container {
     margin-top: 45px;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -445,7 +445,7 @@
   }
 
   .contact .contactForm .container input {
-    width: 300px;
+    width: 80%;
     height: 35px;
     padding-left: 10px;
     padding-right: 10px;
@@ -457,7 +457,7 @@
   }
 
   .contact .contactForm .container textarea {
-    width: 300px;
+    width: 80%;
     height: 185px;
     padding-top: 10px;
     padding-left: 10px;
