@@ -1,0 +1,482 @@
+@media screen and (min-width: 150px) and (max-width: 599px) {
+  /* Global */
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .diviseur * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .diviseur i {
+    margin: 10px;
+    color: #5CADD3;
+    border: 5px solid white;
+    border-radius: 50%;
+  }
+
+  .diviseur .ligne {
+    width: 75px;
+    border: 0.5px solid grey;
+  }
+
+  /* Navbar */
+  nav {
+    position: sticky;
+    top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    z-index: 142;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav .menu {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav .menu li {
+    width: 20%;
+    text-align: center;
+  }
+
+  nav .menu li a {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #5B5B5B;
+    border-top: 2px solid transparent;
+  }
+
+  nav .menu li a:hover {
+    border-top: 2px solid #5CADD3;
+  }
+
+  /* Index */
+  .indexContainer {
+    margin-top: 5%;
+  }
+
+  .indexContainer #demiCercleLeft {
+    margin-top: 15%;
+    position: absolute;
+    height: 80px;
+    width: 40px;
+    border-radius: 0 100px 100px 0;
+    background: rgba(0,0,0,0.6);
+  }
+
+  .indexContainer #demiCercleLeft #chevronLeft {
+    padding-left: 7.5px;
+    font-size: 20px;
+    color: white;
+    margin-top: 70%;
+  }
+
+  .indexContainer img {
+    width: 100%;
+    position: absolute;
+    z-index: -42;
+  }
+
+  .indexContainer #demiCercleRight {
+    right: 0;
+    margin-top: 15%;
+    position: absolute;
+    height: 80px;
+    width: 40px;
+    border-radius: 100px 0 0 100px;
+    background: rgba(0,0,0,0.6);
+  }
+
+  .indexContainer #demiCercleRight #chevronRight {
+    padding-left: 17.5px;
+    font-size: 20px;
+    color: white;
+    margin-top: 70%;
+  }
+
+  .indexContainer .imageText {
+    margin-top: 7.5%;
+    margin-left: 7.5%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .indexContainer .imageText h1 {
+    margin-top: 25%;
+    color: white;
+    font-family: 'Roboto Bold', sans-serif;
+    padding: 5px;
+  }
+
+  .indexContainer .imageText #blue {
+    color: #5CADD3;
+  }
+
+  .indexContainer .imageText p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+  }
+
+  .indexContainer .imageText * {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .indexContainer .imageText .buttonContainer input {
+    padding: 10px;
+    background-color: #5CADD3;
+    border-color: #5CADD3;
+    border-radius: 3px;
+    box-shadow: -1px 3px 1px #4494BB;
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto Bold', sans-serif;
+  }
+
+  /* Nos Services */
+  #Services {
+    margin-top: 15%;
+  }
+
+  .nosServices {
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nosServices h2 {
+    font-size: 35px;
+    font-family: 'Roboto Bold', sans-serif;
+  }
+
+  .nosServices p {
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #75797D;
+  }
+
+  .nosServicesContainer {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nosServicesContainer .box {
+    width: 50%;
+    display: flex;
+  }
+
+  .nosServicesContainer .box .icones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .nosServicesContainer .box .textBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .nosServicesContainer .box .icones span {
+    padding: 15px;
+    border: 1px solid #DDDDDD;
+    border-radius: 50%;
+  }
+
+  .nosServicesContainer .box .icones span::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #5EABD3;
+    position: absolute;
+    margin-left: 7.5px;
+    margin-top: 5px;
+    border: 5px solid white;
+    border-radius: 50%;
+  }
+
+  .nosServicesContainer .box .icones span i {
+    color: #5DACD3;
+    font-size: 30px;
+  }
+
+  .nosServicesContainer .box .textBox .text {
+    margin-left: 5%;
+  }
+
+  .nosServicesContainer .box .textBox .text h3 {
+    font-size: 22px;
+    font-family: 'Roboto Bold', sans-serif;
+    margin-bottom: 5px;
+  }
+
+  .nosServicesContainer .box .textBox .text p {
+    font-size: 15px;
+    color: #75797D;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Nos Projets */
+  #Projets {
+    margin-top: 10%;
+  }
+
+  .nosProjets {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+  }
+
+  .nosProjets .text,
+  .nosProjets .menu,
+  .nosProjets .pictures {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .nosProjets .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nosProjets .text h2 {
+    font-size: 35px;
+    font-family: 'Roboto Bold', sans-serif;
+  }
+  .nosProjets .text p {
+    color: #75797D;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .nosProjets ul {
+    display: flex;
+    border-radius: 5px;
+    background-color: #E5E5E5;
+    margin-bottom: 25px;
+  }
+
+  .nosProjets ul li {
+    width: 125px;
+    height: 50px;
+    border-bottom: 5px solid transparent;
+  }
+
+  .nosProjets ul li:hover {
+    border-bottom: 5px solid #468CAC;
+    background-color: #5CADD3;
+  }
+
+  .nosProjets ul li:hover::after {
+    content: '';
+    position: absolute;
+    margin-left: 5%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 0 15px;
+    border-color: #468CAC transparent transparent transparent;
+  }
+
+  .nosProjets ul li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Roboto Bold', sans-serif;
+    color: grey;
+  }
+
+  .nosProjets ul li a:hover {
+    color: white;
+  }
+
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .portfolio figure {
+    margin-top: 1%;
+    position: relative;
+    width: 22.5%;
+  }
+
+  .portfolio img {
+    width: 100%;
+    vertical-align: top;
+  }
+
+  .portfolio h3 {
+    font-family: 'Roboto Bold', sans-serif;
+    color: white;
+    padding: 5px;
+    margin: 0;
+  }
+
+  .portfolio p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 5px;
+    margin: 0;
+  }
+
+  .portfolio i {
+    position: absolute;
+    top: -20%;
+    left: 85%;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    background-color: #51A0B0;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+
+  .portfolio figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.4);
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.5s;
+  }
+
+  .portfolio figure:hover figcaption {
+    overflow: visible;
+    max-height: 10em;
+    transition: 0.5s;
+  }
+
+  /* Contact */
+  .contact .mapBox {
+    width: 100%;
+    height: 720px;
+    position: absolute;
+    background-color: rgba(92, 173, 211, 0.3);
+  }
+
+  .contact .mapBox #map {
+    width: 100%;
+    height: 720px;
+    position: absolute;
+    z-index: -42;
+    border: 0;
+  }
+
+  .contact .contactForm {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+  }
+
+  .contact .contactForm .container {
+    margin-top: 45px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 42;
+  }
+
+  .contact .contactForm .container .text {
+    padding-bottom: 20px;
+  }
+
+  .contact .contactForm .container .text h1 {
+    font-family: 'Roboto Bold', sans-serif;
+  }
+
+  .contact .contactForm .container .text h6 {
+    font-size: 14px;
+    font-family: 'Roboto Bold', sans-serif;
+    padding-bottom: 5px;
+  }
+
+  .contact .contactForm .container .text p {
+    font-family: 'Roboto Light', sans-serif;
+    padding-bottom: 3px;
+  }
+
+  .contact .contactForm .container .text p #num {
+    text-decoration-style: dotted;
+  }
+
+  .contact .contactForm .container input {
+    width: 80%;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Roboto Light', sans-serif;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+
+  .contact .contactForm .container textarea {
+    width: 80%;
+    height: 185px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Roboto Light', sans-serif;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+
+  .contact .contactForm .container #button input {
+    width: 100px;
+    background-color: #5CADD3;
+    border-color: #5CADD3;
+    border-radius: 3px;
+    box-shadow: -1px 3px 1px #4494BB;
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto Bold', sans-serif;
+  }
+}
