@@ -348,6 +348,7 @@ nav .menu li a:hover {
 }
 
 .portfolio h3 {
+  font-size: 14px;
   font-family: 'Roboto Bold', sans-serif;
   color: white;
   padding: 5px;
@@ -355,6 +356,7 @@ nav .menu li a:hover {
 }
 
 .portfolio p {
+  font-size: 12px;
   font-family: 'Roboto', sans-serif;
   color: white;
   padding: 5px;
@@ -364,10 +366,10 @@ nav .menu li a:hover {
 .portfolio i {
   position: absolute;
   top: -20%;
-  left: 85%;
+  left: 80%;
   font-size: 15px;
   color: white;
-  padding: 10px;
+  padding: 6px;
   background-color: #51A0B0;
   border: 1px solid white;
   border-radius: 50%;

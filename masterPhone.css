@@ -17,19 +17,24 @@ a {
   text-decoration: none;
 }
 
-#diviseur * {
+.diviseur {
+  width: 80%;
+  text-align: center;
+}
+
+.diviseur * {
   display: inline-block;
   vertical-align: middle;
 }
 
-#diviseur i {
+.diviseur i {
   margin: 7.5px;
   color: #5CADD3;
   border: 5px solid white;
   border-radius: 50%;
 }
 
-#diviseur .ligne {
+.diviseur .ligne {
   width: 60px;
   border: 0.5px solid grey;
 }
